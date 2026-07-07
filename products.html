@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Products | Zarar Chemicals</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <img src="assets/images/zarar-logo.jpg" alt="Zarar Chemicals" class="logo-img">
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About Us</a></li>
+        <li class="has-dropdown">
+          <a href="products.html" class="active">Products ▾</a>
+          <ul class="dropdown">
+            <li><a href="products.html#drilling-fluid-additives">Drilling Fluid Additives</a></li>
+            <li><a href="products.html#well-cementing-chemicals">Well Cementing Chemicals</a></li>
+            <li><a href="products.html#stimulation-frac-chemicals">Stimulation &amp; Frac Chemicals</a></li>
+            <li><a href="products.html#water-treatment-products">Water Treatment Solutions</a></li>
+            <li><a href="products.html">View All Products →</a></li>
+          </ul>
+        </li>
+        <li><a href="rd-technology.html">R&amp;D &amp; Technology</a></li>
+        <li><a href="quality-hse.html">Quality &amp; HSE</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="index.html#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <a href="https://wa.me/923005010174" target="_blank" rel="noopener" class="header-whatsapp-btn">
+      <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.33 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.86 9.86 0 0 0 12.04 2Zm0 18.13h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.22 8.22 0 0 1-1.26-4.36c0-4.55 3.7-8.25 8.26-8.25 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.84c0 4.55-3.71 8.25-8.25 8.25Zm4.52-6.19c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.78.97-.15.16-.29.18-.54.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.16-.25.25-.42.08-.16.04-.31-.02-.43-.06-.13-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42-.14-.01-.31-.01-.47-.01-.16 0-.43.06-.65.31-.23.25-.85.83-.85 2.02 0 1.19.87 2.34.99 2.5.12.16 1.71 2.61 4.14 3.66.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
+      Chat on WhatsApp
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="products-hero">
+  <div class="container">
+    <p class="eyebrow">Our Product Portfolio</p>
+    <h1>Complete Product Catalog</h1>
+    <p class="products-hero-desc">Browse our full range of oilfield and industrial water treatment chemicals — drilling fluid additives, well cementing chemicals, stimulation &amp; frac chemicals, and water treatment products. Every product is backed by lab data, field protocols, and full technical documentation (CoA &amp; SDS).</p>
+  </div>
+</section>
+
+<!-- ===== CATEGORY CARDS ===== -->
+<section class="cat-cards-section" id="cat-cards">
+  <div class="container">
+    <div class="cat-cards-grid">
+      <button class="cat-card" data-target="drilling-fluid-additives">
+        <span class="cat-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3h4"/><path d="M11 3v9.5L6.5 19a2 2 0 0 0 1.7 3h7.6a2 2 0 0 0 1.7-3L13 12.5V3"/><path d="M9 16h6"/></svg></span>
+        <h3>Drilling Fluid Additives</h3>
+        <p>Viscosifiers, fluid loss control, shale inhibitors, lubricants &amp; LCM.</p>
+        <span class="cat-card-count">21 Products</span>
+        <span class="cat-card-link">View Products →</span>
+      </button>
+      <button class="cat-card" data-target="well-cementing-chemicals">
+        <span class="cat-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/></svg></span>
+        <h3>Well Cementing Chemicals</h3>
+        <p>Retarders, dispersants, fluid loss agents &amp; density modifiers.</p>
+        <span class="cat-card-count">17 Products</span>
+        <span class="cat-card-link">View Products →</span>
+      </button>
+      <button class="cat-card" data-target="stimulation-frac-chemicals">
+        <span class="cat-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></span>
+        <h3>Stimulation &amp; Frac Chemicals</h3>
+        <p>Corrosion inhibitors, H₂S scavengers, surfactants &amp; clay stabilizers.</p>
+        <span class="cat-card-count">13 Products</span>
+        <span class="cat-card-link">View Products →</span>
+      </button>
+      <button class="cat-card" data-target="water-treatment-products">
+        <span class="cat-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5c3.5 4 6 7.4 6 10.8a6 6 0 1 1-12 0c0-3.4 2.5-6.8 6-10.8z"/></svg></span>
+        <h3>Water Treatment Products</h3>
+        <p>Scale inhibitors, biocides, flocculants &amp; corrosion control.</p>
+        <span class="cat-card-count">21 Products</span>
+        <span class="cat-card-link">View Products →</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CATEGORY NAV (shown only inside a category view) ===== -->
+<nav class="cat-nav" id="cat-nav">
+  <div class="container cat-nav-inner">
+    <button class="cat-nav-back" id="cat-nav-back">← All Categories</button>
+    <a href="#drilling-fluid-additives" data-target="drilling-fluid-additives">Drilling Fluid Additives</a>
+    <a href="#well-cementing-chemicals" data-target="well-cementing-chemicals">Well Cementing Chemicals</a>
+    <a href="#stimulation-frac-chemicals" data-target="stimulation-frac-chemicals">Stimulation &amp; Frac Chemicals</a>
+    <a href="#water-treatment-products" data-target="water-treatment-products">Water Treatment Products</a>
+  </div>
+</nav>
+
+<!-- ===== DRILLING FLUID ADDITIVES ===== -->
+<section class="product-category" id="drilling-fluid-additives">
+  <div class="container">
+    <div class="category-head">
+      <span class="category-num">01</span>
+      <div>
+        <h2>Drilling Fluid Additives</h2>
+        <p>Formulated to optimize rheology, control fluid loss, stabilize reactive shales, and enhance lubricity across water-based, oil-based, and synthetic mud systems. The product range includes viscosifiers, fluid loss control polymers, shale inhibitors, lubricants, and Lost Circulation Materials (LCM), engineered for consistent performance across varying formation conditions and temperature-pressure regimes.</p>
+      </div>
+    </div>
+    <div class="product-table-wrap">
+      <table class="product-table">
+        <thead><tr><th>Code</th><th>Product Name</th><th>Function / Description</th></tr></thead>
+        <tbody>
+          <tr><td>ZM600</td><td>ShaleGUARD-AM</td><td>Amine-based shale inhibitor for reactive clay stabilization.</td></tr>
+          <tr><td>ZM601</td><td>ShaleGUARD-CH</td><td>Cationic shale inhibitor for water-sensitive formations.</td></tr>
+          <tr><td>ZM602</td><td>ShaleGUARD-GLYCOL</td><td>Glycol-based inhibitor for HPHT shale applications.</td></tr>
+          <tr><td>ZM020</td><td>XANTHAN-PRIME</td><td>Xanthan gum viscosifier for water-based mud systems.</td></tr>
+          <tr><td>ZM021</td><td>XANTHAN-PRIME HT</td><td>High-temperature xanthan gum for elevated BHST wells.</td></tr>
+          <tr><td>ZM200</td><td>MudLUBE XT</td><td>Extended-performance lubricant for directional drilling.</td></tr>
+          <tr><td>ZM201</td><td>Friction GUARD</td><td>Friction-reducing additive for improved lubrication and wear protection.</td></tr>
+          <tr><td>ZM220</td><td>LubriSeal G50</td><td>Graphite-based lubricant (50 mesh) for torque reduction.</td></tr>
+          <tr><td>ZM220-100</td><td>LubriSeal G100</td><td>Graphite lubricant (100 mesh) for precision applications.</td></tr>
+          <tr><td>ZM220-400</td><td>LubriSeal G400</td><td>Fine graphite (400 mesh) for tight wellbore conditions.</td></tr>
+          <tr><td>ZM124</td><td>Citric Acid</td><td>pH control and scale inhibition in drilling fluids.</td></tr>
+          <tr><td>ZM302</td><td>SulfGUARD 35</td><td>H₂S scavenger (35%) for drilling fluid protection.</td></tr>
+          <tr><td>ZM250</td><td>BioSHIELD</td><td>Biocide for microbial control in water-based systems.</td></tr>
+          <tr><td>ZM251</td><td>BioSHIELD Plus</td><td>HT biocide for aggressive bacterial environments in HT environments (above 250°F).</td></tr>
+          <tr><td>ZM001</td><td>MudFOAM SHIELD</td><td>Defoamer for foam control in drilling operations.</td></tr>
+          <tr><td>ZM463</td><td>CasingCLEAN</td><td>Casing wash fluid for pre-cement hole conditioning.</td></tr>
+          <tr><td>ZM1000</td><td>ThermalShield</td><td>HPHT thermal stabilizer for deep well applications.</td></tr>
+          <tr><td>ZM401</td><td>MudAWAY</td><td>Drilling detergent for mud.</td></tr>
+          <tr><td>ZM331</td><td>MICA C/M/F (LCM)</td><td>Mica-based lost circulation material (coarse/medium/fine).</td></tr>
+          <tr><td>ZM332</td><td>CaCO₃ C/M/F (LCM)</td><td>Calcium carbonate for LCM and weighing agent.</td></tr>
+          <tr><td>ZM500</td><td>GYPSUM</td><td>Weighing &amp; conditioning agent for drilling fluids.</td></tr>
+          <tr><td>ZM100</td><td>BARITE</td><td>Weighing agent.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WELL CEMENTING CHEMICALS ===== -->
+<section class="product-category alt" id="well-cementing-chemicals">
+  <div class="container">
+    <div class="category-head">
+      <span class="category-num">02</span>
+      <div>
+        <h2>Well Cementing Chemicals</h2>
+        <p>Engineered to ensure dependable zonal isolation, predictable thickening time, and long-term wellbore integrity. Cementing additives are tested for compatibility and performance under standard to elevated temperature and pressure regimes, covering retarders, accelerators, fluid loss control agents, dispersants, and density modifiers.</p>
+      </div>
+    </div>
+    <div class="product-table-wrap">
+      <table class="product-table">
+        <thead><tr><th>Code</th><th>Product Name</th><th>Function / Description</th></tr></thead>
+        <tbody>
+          <tr><td>ZC800</td><td>AquaFLUSH PRO</td><td>Water-based spacer for effective mud/cement displacement.</td></tr>
+          <tr><td>ZX810</td><td>AQUAFLUSH Stabilizer</td><td>Spacer HT stabilizer for improved mud removal efficiency in HTHP environments (up to 350°F).</td></tr>
+          <tr><td>ZC200</td><td>FlowCEM CD</td><td>Cement dispersant for improved slurry rheology.</td></tr>
+          <tr><td>ZC102</td><td>CemRETARD MT</td><td>Medium-temperature retarder for extended pumping time.</td></tr>
+          <tr><td>ZC104</td><td>CemRETARD HT</td><td>High-temperature retarder for deep/HPHT well applications.</td></tr>
+          <tr><td>ZC701</td><td>LossCONTROL FIBER</td><td>Fibrous fluid loss additive for cement slurry control.</td></tr>
+          <tr><td>ZC900</td><td>Silica 200</td><td>Silica flour for HPHT strength retrogression prevention.</td></tr>
+          <tr><td>ZC829</td><td>OBMFLUSH SURF</td><td>OBM-compatible surfactant flush for mud film removal.</td></tr>
+          <tr><td>ZC901</td><td>SilicaSAND 70-200</td><td>Silica sand for HW cementing.</td></tr>
+          <tr><td>ZC903</td><td>MicroFINE Silica 400</td><td>400 mesh silica for fine particle applications.</td></tr>
+          <tr><td>ZC421</td><td>SilicateEXTEND</td><td>Sodium silicate extender for lightweight cement design.</td></tr>
+          <tr><td>ZC605</td><td>RheoHOLD</td><td>Thixotropic rheology modifier for enhanced slurry suspension.</td></tr>
+          <tr><td>ZC001</td><td>CemFOAMSHIELD</td><td>Antifoam agent for air entrainment control in slurries.</td></tr>
+          <tr><td>ZC450</td><td>FLYASH</td><td>Class F fly ash for cement volume extension and cost reduction.</td></tr>
+          <tr><td>ZC545</td><td>Hematite</td><td>High-density weighting agent for heavyweight cement slurries.</td></tr>
+          <tr><td>ZC455</td><td>Cenosphere</td><td>Lightweight extender for cement slurries.</td></tr>
+          <tr><td>ZC460</td><td>SilicaFUME</td><td>Strength enhancer for cement systems.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STIMULATION & FRAC CHEMICALS ===== -->
+<section class="product-category" id="stimulation-frac-chemicals">
+  <div class="container">
+    <div class="category-head">
+      <span class="category-num">03</span>
+      <div>
+        <h2>Stimulation &amp; Frac Chemicals</h2>
+        <p>High-efficiency formulations developed to maximize reservoir contact, reduce pumping pressure, improve proppant transport, and protect formation permeability. The portfolio covers corrosion inhibitors, H₂S scavengers, crosslinkers, surfactants, clay stabilizers, and breaker systems optimized for both conventional and unconventional stimulation programs.</p>
+      </div>
+    </div>
+    <div class="product-table-wrap">
+      <table class="product-table">
+        <thead><tr><th>Code</th><th>Product Name</th><th>Function / Description</th></tr></thead>
+        <tbody>
+          <tr><td>ZS701</td><td>ClayGUARD AM</td><td>Amine-based clay stabilizer for frac fluid systems.</td></tr>
+          <tr><td>ZS702</td><td>ClayGUARD CS</td><td>Cationic clay stabilizer for post-frac protection.</td></tr>
+          <tr><td>ZS101</td><td>STEELSAFE M</td><td>Multi-purpose corrosion inhibitor for stimulation.</td></tr>
+          <tr><td>ZS102</td><td>STEELSAFE HT</td><td>High-temperature corrosion inhibitor for aggressive acidizing operations (up to 400°F).</td></tr>
+          <tr><td>ZS400</td><td>NexSURF-S</td><td>Non-ionic surfactant for stimulation treatment.</td></tr>
+          <tr><td>ZS360L</td><td>FeroLOCK-L</td><td>Liquid iron control additive.</td></tr>
+          <tr><td>ZS361</td><td>FeroLOCK</td><td>Iron control additive.</td></tr>
+          <tr><td>ZS415</td><td>SludgeGUARD AS</td><td>Asphaltene sludge inhibitor for crude oil stabilization.</td></tr>
+          <tr><td>ZS416</td><td>Emulshield NE</td><td>Non-emulsifier for acid stimulation fluid systems.</td></tr>
+          <tr><td>ZS30250</td><td>SulfGUARD 50</td><td>High-concentration H₂S scavenger (50%) for severe sour environments.</td></tr>
+          <tr><td>ZS289</td><td>VexisFLOW</td><td>Viscoelastic surfactant blend for carbonate stimulation.</td></tr>
+          <tr><td>ZS289M</td><td>VexisFLOW MAX HT</td><td>HT viscoelastic surfactant blend for carbonate stimulation.</td></tr>
+          <tr><td>ZS302</td><td>SulfGUARD-35</td><td>Removal of hydrogen sulfide (H₂S) during oilfield stimulation.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WATER TREATMENT PRODUCTS ===== -->
+<section class="product-category alt" id="water-treatment-products">
+  <div class="container">
+    <div class="category-head">
+      <span class="category-num">04</span>
+      <div>
+        <h2>Water Treatment Products</h2>
+        <p>Beyond oilfield operations, Zarar Chemicals extends its chemical engineering expertise to industrial and municipal water treatment applications, addressing scale, corrosion, biological fouling, and clarification challenges across produced water handling, injection systems, cooling towers, boiler feedwater circuits, and industrial process water applications.</p>
+      </div>
+    </div>
+    <div class="product-table-wrap">
+      <table class="product-table">
+        <thead><tr><th>Code</th><th>Product Name</th><th>Function / Description</th></tr></thead>
+        <tbody>
+          <tr><td>ZW101</td><td>ScaleGUARD PW</td><td>Phosphonate-based scale inhibitor for produced water reinjection systems; controls CaCO₃, BaSO₄ and CaSO₄ scale.</td></tr>
+          <tr><td>ZW102</td><td>ScaleGUARD HT</td><td>High-temperature scale inhibitor for steam injection and hot water systems; stable to 200°C.</td></tr>
+          <tr><td>ZW200</td><td>CorroSHIELD W</td><td>Film-forming corrosion inhibitor for carbon steel in cooling water and produced water circuits.</td></tr>
+          <tr><td>ZW201</td><td>CorroSHIELD AZ</td><td>Azole-based corrosion inhibitor for copper alloys in heat exchangers and condenser systems.</td></tr>
+          <tr><td>ZW300</td><td>BioKILL CT</td><td>Non-oxidizing biocide for cooling tower and process water biological fouling control.</td></tr>
+          <tr><td>ZW301</td><td>OxiCLEAR</td><td>Oxidizing biocide (stabilized hypochlorite) for bacterial and algal control in open cooling systems.</td></tr>
+          <tr><td>ZW400</td><td>ClarityCLEAR</td><td>Cationic flocculant for produced water clarification and suspended solids removal.</td></tr>
+          <tr><td>ZW401</td><td>ClarityPLUS</td><td>Anionic polyacrylamide flocculant for enhanced settling in produced water separation vessels.</td></tr>
+          <tr><td>ZW500</td><td>AntiSCALE BW</td><td>Antiscalant and dispersant blend for boiler feedwater scale prevention.</td></tr>
+          <tr><td>ZW501</td><td>OxyGUARD BW</td><td>Oxygen scavenger (sodium sulfite / DEHA blend) for boiler feedwater protection.</td></tr>
+          <tr><td>ZW600</td><td>InjectionGUARD</td><td>Multi-functional water injection additive: scale inhibition + oxygen scavenging + biostatic protection.</td></tr>
+          <tr><td>ZW700</td><td>DeoilSOLV</td><td>Deoiling chemical for produced water treatment prior to discharge or reinjection; reduces TPH to compliant levels.</td></tr>
+          <tr><td>ZCR110WT</td><td>CorrGuARD OF</td><td>Industrial/oilfield corrosion inhibition, UV stabilization.</td></tr>
+          <tr><td>ZS106TG</td><td>ChillGuard CI</td><td>Functional fluids, cooling system corrosion inhibition.</td></tr>
+          <tr><td>ZS108WT</td><td>CorrGuARD WT1</td><td>Industrial water treatment (cooling towers, heat exchangers).</td></tr>
+          <tr><td>ZW100L</td><td>Scale DEFEND HT LITE</td><td>Scale inhibition in cooling towers, boilers, RO systems, oil &amp; gas.</td></tr>
+          <tr><td>ZW101-B</td><td>SCALEDEFEND-CW B</td><td>Industrial water treatment (cooling towers, heat exchangers).</td></tr>
+          <tr><td>ZW104</td><td>Scale DEFEND WT</td><td>Scale inhibition in cooling towers, boilers, RO systems, oil &amp; gas.</td></tr>
+          <tr><td>ZW105</td><td>Scale DEFEND RO</td><td>Scale inhibition in RO systems, cooling towers, boilers, oil &amp; gas.</td></tr>
+          <tr><td>ZW106</td><td>BrineSAFE-50</td><td>Scale inhibition, corrosion inhibition, microbiological control.</td></tr>
+          <tr><td>ZW109</td><td>CorrScaleShield NI</td><td>Cooling water systems — industrial and commercial.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="products-cta">
+  <div class="container products-cta-inner">
+    <div>
+      <h2>Need help choosing the right chemistry?</h2>
+      <p>Our technical team can recommend the right formulation for your well conditions and operational requirements.</p>
+    </div>
+    <a href="https://wa.me/923005010174" target="_blank" rel="noopener" class="btn-whatsapp">
+      <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.33 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.86 9.86 0 0 0 12.04 2Zm0 18.13h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.22 8.22 0 0 1-1.26-4.36c0-4.55 3.7-8.25 8.26-8.25 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.84c0 4.55-3.71 8.25-8.25 8.25Zm4.52-6.19c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.78.97-.15.16-.29.18-.54.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.16-.25.25-.42.08-.16.04-.31-.02-.43-.06-.13-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.42-.14-.01-.31-.01-.47-.01-.16 0-.43.06-.65.31-.23.25-.85.83-.85 2.02 0 1.19.87 2.34.99 2.5.12.16 1.71 2.61 4.14 3.66.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
+      Chat on WhatsApp
+    </a>
+  </div>
+</section>
+
+<div class="angle-divider lg to-primary-dark"></div>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer" id="contact">
+  <div class="container footer-grid">
+    <div class="footer-col footer-brand">
+      <a href="index.html" class="logo logo-footer">
+        <img src="assets/images/zarar-logo.jpg" alt="Zarar Chemicals" class="logo-img">
+      </a>
+      <p>Engineered chemistry. Superior performance. Formulated in the lab. Proven in the field.</p>
+      <div class="socials">
+        <a href="https://www.linkedin.com/company/zarar-chemicals/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        <a href="https://www.facebook.com/zararchem" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="rd-technology.html">R&amp;D &amp; Technology</a></li>
+        <li><a href="quality-hse.html">Quality &amp; HSE</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="index.html#contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Products</h4>
+      <ul>
+        <li><a href="products.html#drilling-fluid-additives">Drilling Fluid Additives</a></li>
+        <li><a href="products.html#well-cementing-chemicals">Well Cementing Chemicals</a></li>
+        <li><a href="products.html#stimulation-frac-chemicals">Stimulation &amp; Frac Chemicals</a></li>
+        <li><a href="products.html#water-treatment-products">Water Treatment Solutions</a></li>
+        <li><a href="products.html">View All Products →</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <ul class="contact-list">
+        <li>
+          <span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 22s7-7.58 7-12.5A7 7 0 0 0 5 9.5C5 14.42 12 22 12 22Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.4" stroke="currentColor" stroke-width="1.8"/></svg></span>
+          <span>Braam, Motorway Link Road (Aqua Fun Road), Brahma, Jhang Bahtar Rd, Wah Cantt, Pakistan</span>
+        </li>
+        <li>
+          <span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 3.5h3.4l1.6 4.3-2 1.6a12.6 12.6 0 0 0 5.5 5.5l1.6-2 4.3 1.6v3.4c0 1-.8 1.7-1.8 1.6a17 17 0 0 1-14.1-14C2.8 4.3 3.5 3.5 4.5 3.5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>
+          <span>+92 300 5010174</span>
+        </li>
+        <li>
+          <span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5.5" width="18" height="13" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M3.5 6.5 12 13l8.5-6.5" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>
+          <span>info@zararchem.com</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© 2026 Zarar Chemicals Pvt. Ltd. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+(function () {
+  var VALID = ['drilling-fluid-additives','well-cementing-chemicals','stimulation-frac-chemicals','water-treatment-products'];
+
+  function init() {
+    var cardsSection = document.getElementById('cat-cards');
+    var catNav       = document.getElementById('cat-nav');
+    var backBtn      = document.getElementById('cat-nav-back');
+    var categories   = document.querySelectorAll('.product-category');
+    var cards        = document.querySelectorAll('.cat-card');
+    var navLinks     = document.querySelectorAll('.cat-nav a[data-target]');
+
+    if (!cardsSection || !catNav || !backBtn) return;
+
+    function showCategory(id) {
+      // hide all categories, show only matching one
+      categories.forEach(function(s){ s.classList.remove('is-active'); });
+      var target = document.getElementById(id);
+      if (target) target.classList.add('is-active');
+
+      // highlight nav link
+      navLinks.forEach(function(a){
+        a.classList.toggle('active', a.getAttribute('data-target') === id);
+      });
+
+      // hide cards grid, show sticky nav
+      cardsSection.style.display = 'none';
+      catNav.classList.add('is-active');
+
+      // scroll to top of page
+      window.scrollTo(0, 0);
+    }
+
+    function showAll() {
+      categories.forEach(function(s){ s.classList.remove('is-active'); });
+      navLinks.forEach(function(a){ a.classList.remove('active'); });
+      cardsSection.style.display = '';
+      catNav.classList.remove('is-active');
+      cardsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (history.pushState) history.pushState(null, '', window.location.pathname);
+    }
+
+    // Category card click
+    cards.forEach(function(card) {
+      card.addEventListener('click', function() {
+        var id = this.getAttribute('data-target');
+        if (id) {
+          showCategory(id);
+          if (history.pushState) history.pushState(null, '', '#' + id);
+        }
+      });
+    });
+
+    // Sticky nav link click
+    navLinks.forEach(function(a) {
+      a.addEventListener('click', function(e) {
+        e.preventDefault();
+        var id = this.getAttribute('data-target');
+        if (id) {
+          showCategory(id);
+          if (history.pushState) history.pushState(null, '', '#' + id);
+        }
+      });
+    });
+
+    // Back button
+    backBtn.addEventListener('click', showAll);
+
+    // Hash on page load (deep link from index.html)
+    var hash = window.location.hash.replace('#', '');
+    if (hash && VALID.indexOf(hash) !== -1) {
+      showCategory(hash);
+    }
+
+    // Browser back/forward
+    window.addEventListener('hashchange', function() {
+      var h = window.location.hash.replace('#', '');
+      if (h && VALID.indexOf(h) !== -1) {
+        showCategory(h);
+      } else {
+        showAll();
+      }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+
+<!-- ===== WHATSAPP FLOATING BUTTON ===== -->
+<div class="whatsapp-float">
+  <a href="https://wa.me/923005010174" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.33 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm5.78 14.02c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.11.11-1.79-.11-.41-.13-.94-.31-1.62-.6-2.85-1.23-4.71-4.1-4.85-4.29-.14-.19-1.16-1.54-1.16-2.93 0-1.4.73-2.08 1-2.36.26-.28.56-.35.75-.35.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.81 2 .88 2.15.07.15.12.32.02.51-.09.19-.14.31-.28.48-.14.17-.29.37-.42.5-.14.14-.29.29-.12.57.16.28.72 1.19 1.55 1.93 1.07.95 1.97 1.25 2.25 1.39.28.14.44.12.6-.07.16-.19.68-.79.87-1.06.18-.27.36-.22.6-.13.24.09 1.53.72 1.79.85.26.13.43.19.5.3.06.11.06.63-.18 1.31z"/></svg>
+  </a>
+</div>
+</body>
+</html>
